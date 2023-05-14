@@ -1,0 +1,359 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Global Styles */
+body {
+  font-size: 16px;
+  font-family: "Sacramento", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f7f7f7;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Header Styles */
+h3 {
+  color: darkblue;
+}
+h2 {
+  color: darkred;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin-right: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+}
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+/* Banner Styles */
+.banner {
+  height: 500px;
+  background-image: url('https://i.imgur.com/OhpFwcL.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.banner h1 {
+  font-size: 72px;
+  text-shadow: 2px 2px 0 #333;
+}
+/* About Section Styles */
+#about {
+  margin-top: 50px;
+}
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: darkred;
+}
+#about p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+/* Events Section Styles */
+#events {
+  margin-top: 50px;
+}
+#events h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: darkred;
+}
+#events ul {
+  list-style: none;
+}
+
+#events li {
+  margin-bottom: 10px;
+}
+
+#events li strong {
+  font-weight: bold;
+}
+.car-card img {
+  flex: 1;
+  margin-right: 10px;
+  max-width: 500px;
+  max-height: 300px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.event-card img {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 500px;
+  max-height: 300px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.gallery-grid img {
+  float:left;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  max-width: 33.33%;
+  max-height: 300px;
+}
+/* Media Gallery Section Styles */
+.media-container {
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+.media-card {
+  float: left;
+  flex: 1;
+  margin-right: 20px;
+  max-width: 33.33%px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.media-card img {
+  max-width: 560px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.media-grid h2 {
+  margin: 10px ;
+  font-size: 24px;
+  clear: left;
+  color: darkred;
+}
+.media-card .card-content {
+  padding: 10px;
+  text-align: left;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.media-card .card-content h2 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: darkred;
+}
+.media-card .card-content p {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.media-card .card-content a {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+/* Contact Section Styles */
+#contact {
+  margin-top: 50px;
+}
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: darkred;
+  clear: both;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #555555; /* Add a border to the input */
+  border-radius: 4px;
+}
+form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto; /* Center the submit button */
+}
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: left;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  color: #fff;
+}
+table th{
+  font-size: 150%;
+  font-weight: bold;
+}
+td{
+  border: 3px solid rgb(255, 0, 0);
+  text-align: center;
+}
+th{
+  border: 3px solid rgb(255, 0, 0);
+  border-width: 3px;
+  font-size: 150%;
+  font-weight: bold;
+}
+/*neonText style*/
+.neonText {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+}
+body {
+  font-size: 18px;
+  font-family: "Sacramento", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-weight: 400;
+}
+h1 {
+  font-size: 4.2rem;
+  animation: pulsate 1.5s infinite alternate;  
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #fe133a,
+            0 0 0.8rem #fe133a,
+            0 0 2.8rem #fe133a,
+            inset 0 0 1.3rem #fe133a; 
+}
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #fe133a,
+      0 0 80px #fe133a,
+      0 0 90px #fe133a,
+      0 0 100px #fe133a,
+      0 0 150px #fe133a;
+  
+  }
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #fe133a,
+    0 0 45px #fe133a,
+    0 0 55px #fe133a,
+    0 0 70px #fe133a,
+    0 0 80px #fe133a;
+
+}
+}
+.button {
+  width: 50px;
+  height: 50px;
+  background: #e62739;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  transition: background 0.2s;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.button:hover {
+  background: #af1d2b;
+}
+/*scrollbar style*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #c0c0c0;
+}
+::-webkit-scrollbar-thumb{
+  background: #e62739;
+}
